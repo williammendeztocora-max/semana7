@@ -1,0 +1,6 @@
+Al enviar un reporte usando la ruta POST /reportes, el servidor guarda la información
+en un array en memoria. Cuando se consulta la ruta GET /reportes, el servidor
+devuelve la lista completa de reportes registrados en formato JSON.
+
+Esto permite verificar que los datos se almacenan correctamente mientras el
+servidor está en ejecución.
